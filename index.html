@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080810">
+  <meta name="description" content="A little birthday surprise for Noor Malik.">
+  <title>For Noor ✦</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div id="particles" class="particles" aria-hidden="true"></div>
+
+  <main class="app">
+    <div class="topline">
+      <span class="brand-mark"><span class="brand-dot"></span> A LITTLE SOMETHING</span>
+      <span class="top-date">23 OCT <span>✦</span></span>
+    </div>
+
+    <div class="progress" aria-label="Surprise progress">
+      <span class="progress-segment active"></span>
+      <span class="progress-segment"></span>
+      <span class="progress-segment"></span>
+      <span class="progress-segment"></span>
+    </div>
+
+    <section class="screen active" id="screen-0" aria-labelledby="intro-title">
+      <div class="eyebrow"><span class="eyebrow-line"></span> UNEXPECTED DELIVERY <span class="eyebrow-line"></span></div>
+      <div class="orb-wrap" aria-hidden="true">
+        <div class="orb-ring ring-a"></div><div class="orb-ring ring-b"></div>
+        <div class="orb">N<span>✦</span></div>
+        <i class="spark spark-a">✦</i><i class="spark spark-b">✧</i><i class="spark spark-c">✦</i>
+      </div>
+      <h1 id="intro-title">Hey, Noor<span class="pink">.</span></h1>
+      <p class="lead">Someone has a little surprise for you<span class="pink">.</span></p>
+      <p class="subtle">No hints. No spoilers. Just tap. 👀</p>
+      <button class="button button-primary" data-next>Let's see <span>↗</span></button>
+      <div class="bottom-note">MADE JUST FOR THIS MOMENT <span>♡</span></div>
+    </section>
+
+    <section class="screen" id="screen-1" aria-labelledby="birthday-title" hidden>
+      <div class="eyebrow"><span class="eyebrow-line"></span> TODAY IS YOURS <span class="eyebrow-line"></span></div>
+      <div class="cake-scene" aria-label="Illustrated birthday cake with candles">
+        <div class="cake-glow"></div>
+        <div class="candle candle-one"><i></i></div>
+        <div class="candle candle-two"><i></i></div>
+        <div class="candle candle-three"><i></i></div>
+        <div class="cake-top"></div>
+        <div class="cake-layer cake-upper"><span class="icing-drip drip-one"></span><span class="icing-drip drip-two"></span><span class="icing-drip drip-three"></span></div>
+        <div class="cake-layer cake-lower"><span class="icing-drip drip-four"></span><span class="icing-drip drip-five"></span><span class="icing-drip drip-six"></span></div>
+        <div class="cake-plate"></div>
+        <span class="cake-star star-one">✦</span><span class="cake-star star-two">✧</span><span class="cake-star star-three">✦</span>
+      </div>
+      <h2 id="birthday-title">Happy 23rd,<br><span class="gradient-text">Noor Malik!</span></h2>
+      <p class="lead">23 already? Okayyy, look at you. 😂</p>
+      <p class="body-copy">Wishing you a day full of good vibes, little surprises, and all your favourite things. You deserve a lovely year ahead. ✨</p>
+      <button class="button button-primary" id="cake-button">Tap for a little sparkle <span>✦</span></button>
+      <button class="button button-quiet" data-next>Keep going <span>→</span></button>
+    </section>
+
+    <section class="screen" id="screen-2" aria-labelledby="memory-title" hidden>
+      <div class="eyebrow"><span class="eyebrow-line"></span> A RANDOM LITTLE THOUGHT <span class="eyebrow-line"></span></div>
+      <div class="game-card">
+        <div class="game-icon"><span class="game-cross">✕</span><span class="game-circle">◉</span><span class="game-diamond">◆</span></div>
+        <div class="game-label">PLAYER TWO: NOOR</div>
+        <div class="game-title">Plot twist.</div>
+        <div class="game-caption">It started with a game...</div>
+        <div class="pixel-line"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      </div>
+      <h2 id="memory-title">Funny how one game can lead to <span class="gradient-text">unexpected people.</span></h2>
+      <p class="body-copy">Anyway, no emotional speech today. It's your birthday, so I'll behave. Mostly. 😌</p>
+      <button class="button button-primary" data-next>That sounds suspicious <span>↗</span></button>
+    </section>
+
+    <section class="screen" id="screen-3" aria-labelledby="gift-title" hidden>
+      <div class="eyebrow"><span class="eyebrow-line"></span> ONE SMALL QUESTION <span class="eyebrow-line"></span></div>
+      <div class="gift-stage">
+        <div class="gift-halo"></div>
+        <button class="gift-box" id="gift-button" aria-label="Open the surprise gift">
+          <span class="gift-lid"><span class="gift-bow"></span></span>
+          <span class="gift-body"><span class="gift-ribbon"></span></span>
+          <span class="gift-glint">✦</span>
+        </button>
+        <span class="gift-orbit orbit-one">✧</span><span class="gift-orbit orbit-two">✦</span>
+      </div>
+      <h2 id="gift-title">Okay, one thing... <span class="pink">👀</span></h2>
+      <p class="body-copy">Tap the gift. Don't worry, it's not a trap.</p>
+      <div id="gift-reveal" class="reveal-card" hidden>
+        <div class="reveal-label">A VERY IMPORTANT REMINDER</div>
+        <p>19 October came and went... birthday wishes received, <span class="pink">gift still missing.</span> 😂🎁</p>
+        <p class="reveal-small">Anyway, today's your day. I'll let you enjoy it first. 😌</p>
+        <button class="button button-small" id="gift-ack">Noted? <span>😇</span></button>
+      </div>
+      <button class="button button-primary" id="gift-continue" hidden>Okay, okay, next <span>→</span></button>
+    </section>
+
+    <section class="screen" id="screen-4" aria-labelledby="final-title" hidden>
+      <div class="final-glow" aria-hidden="true"></div>
+      <div class="final-icon">✦</div>
+      <div class="eyebrow"><span class="eyebrow-line"></span> YOUR DAY, YOUR WAY <span class="eyebrow-line"></span></div>
+      <h2 id="final-title">Noor Malik<span class="pink">.</span></h2>
+      <p class="final-message">Happy Birthday! ❤️<br><br>May Allah bless you with happiness, success, good health, and countless reasons to smile.<br><br>Keep being your wonderful self, enjoy your day, and make this year a good one. ✨</p>
+      <div class="final-stamp">23 LOOKS GOOD ON YOU <span>♡</span></div>
+      <button class="button button-primary" id="celebrate-button">One last thing <span>✦</span></button>
+      <p class="final-signoff" id="signoff" hidden>Okay, birthday girl. Go enjoy your day now. And remember... I'm still waiting. 😂🎁</p>
+      <button class="restart" id="restart-button">Replay the surprise ↺</button>
+    </section>
+    <footer class="footer"><span>NOOR MALIK</span><span class="footer-star">✦</span><span>23 · 10 · 23</span></footer>
+  </main>
+  <div id="confetti-layer" class="confetti-layer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
